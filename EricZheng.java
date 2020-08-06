@@ -7,9 +7,10 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
  * @version 2.0 Aug 13, 2019
  * @version 3.0 July 21, 2020
  */
-public class KilgoreTrout extends Student implements SpecialInterestOrHobby
+public class EricZheng extends Student implements SpecialInterestOrHobby
 {
-
+int x;
+int i;
     /**
      * Constructor for the KilgoreTrout class.
      * Constructors are special methods with the same exact name as the class name.  
@@ -22,7 +23,8 @@ public class KilgoreTrout extends Student implements SpecialInterestOrHobby
      * @param int s (seat number within row seating arrangement)
      * 
      */
-    public KilgoreTrout(String f, String l, int r, int s) {
+    
+    public EricZheng(String f, String l, int r, int s) {
         firstName=f;
         lastName=l;
         myRow=r;
@@ -38,11 +40,11 @@ public class KilgoreTrout extends Student implements SpecialInterestOrHobby
      * Pay attention to how the row and seat variables set the location of the image.  1,1 is the first cell in the upper left
      * of the classroom.
      */
-    public KilgoreTrout() {
-        firstName="Kilgore";
-        lastName="Trout";
-        myRow=1;
-        mySeat=1;
+    public EricZheng() {
+        firstName="Eric";
+        lastName="Zheng";
+        myRow=4;
+        mySeat=4;
        // imgFile=firstName.toLowerCase()+ lastName.toLowerCase()+".jpg";
        portraitFile=firstName.toLowerCase()+ lastName.toLowerCase()+".jpg";
        standingFile=firstName.toLowerCase()+ lastName.toLowerCase()+"-standing.jpg";
@@ -71,7 +73,7 @@ public class KilgoreTrout extends Student implements SpecialInterestOrHobby
             // combination of all of those types of actions, or more. Make sure to save the original image if you manipulate it, so that you can put it back.
             // Call the sitDown() method to move back  to your seat
             
-                circleClass();  // Kilgore Trount's special method... Please write one of your own. You can use this, but please modify it and be creative.
+                parabola();  // Kilgore Trount's special method... Please write one of your own. You can use this, but please modify it and be creative.
                 provideLesson();
                 sitDown();
             }
@@ -120,29 +122,58 @@ public class KilgoreTrout extends Student implements SpecialInterestOrHobby
      * This is a local method specific to the KilgoreTrout class used to animate the character once the image is clicked on.
      * You should write your own methods to perform your own animation for your character/avatar.
      */
-    public void circleClass(){
-        setLocation(0,0);
+    public void parabola(){
+        setLocation(0,10);
          Greenfoot.delay(10);
-        // move right
-        for (int i=1;i<=9;i++){
-            setLocation(i,0);
-            Greenfoot.delay(10);
+      // if (i<=10) {
+        //   if(x<=9) {
+         for (int x=1; x<=1; x++) {
+         setLocation(x,i);
+         Greenfoot.delay(20);
+        for (int i=1; i<=1; i++) {
+         setLocation(x,i);
+         Greenfoot.delay(20);
+        
         }
-        // move back
-        for (int i=1;i<=5;i++){
-            setLocation(9,i);
-            Greenfoot.delay(10);
-        }      
-         // move left
-        for (int i=9;i>=0;i--){
-            setLocation(i,5);
-            Greenfoot.delay(10);
-        }      
-              // move Forward
-        for (int i=5;i>=0;i--){
-            setLocation(0,i);
-            Greenfoot.delay(10);
-        }   
+    }
+      for (int x=2; x<=2; x++) {
+         setLocation(x,i);
+         Greenfoot.delay(20);
+        for (int i=2; i<=2; i++) {
+         setLocation(x,i);
+         Greenfoot.delay(20);
+        
+        }
+    }
+    
+      for (int x=3; x<=3; x++) {
+         setLocation(x,i);
+         Greenfoot.delay(20);
+        for (int i=3; i<=3; i++) {
+         setLocation(x,i);
+         Greenfoot.delay(20);
+        
+        }
+    }
+    
+      for (int x=4; x<=4; x++) {
+         setLocation(x,i);
+         Greenfoot.delay(20);
+        for (int i=4; i<=4; i++) {
+         setLocation(x,i);
+         Greenfoot.delay(20);
+        
+        }
+    }
+    for (int x=5; x<=5; x++) {
+         setLocation(x,i);
+         Greenfoot.delay(20);
+        for (int i=5; i<=5; i++) {
+         setLocation(x,i);
+         Greenfoot.delay(20);
+        
+        }
+    }
            Greenfoot.delay(20);
            returnToSeat();
     }
@@ -156,3 +187,6 @@ public class KilgoreTrout extends Student implements SpecialInterestOrHobby
 }
 
 }
+
+
+
