@@ -40,6 +40,10 @@ public class Classroom extends World
         addObject(kilgoretrout, 1, 1);
         kilgoretrout.sitDown();
 
+        KeenanKalra keenankalra = new KeenanKalra("Keenan", "Kalra", 2, 2);
+        addObject(keenankalra, 2, 2);
+        keenankalra.sitDown();
+
         AnirudhNagasamudra anirudhnagasamudra = new AnirudhNagasamudra("Anirudh", "Nagasamudra", 9, 5);
         addObject(anirudhnagasamudra, 9, 5);
         anirudhnagasamudra.sitDown();
@@ -53,7 +57,7 @@ public class Classroom extends World
         tanishbaranwal.sitDown();  
         
         YashBansal yashbansal = new YashBansal("Yash", "Bansal", 1, 4);
-        addObject(yashbansal, 1, 1);
+        addObject(yashbansal, 3, 1);
         yashbansal.sitDown();
     }  
 
