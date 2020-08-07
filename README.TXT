@@ -15,7 +15,7 @@ CONTRIBUTERS:               Kilgore Trout
 
 USER INSTRUCTIONS:
 
-
+ 
 1) Start git bash (assuming that you are using git bash)
 
 2) Move to a directory where you want to keep your work. For instance, cd c:/ then cd Users/YourName/Documents/Assignments
