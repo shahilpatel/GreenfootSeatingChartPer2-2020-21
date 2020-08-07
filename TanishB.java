@@ -118,6 +118,8 @@ public class TanishB extends Student implements SpecialInterestOrHobby
     }
         
     }
+    public void answerQuestion(){
+    }
     /**
      * This is a local method specific to the TanishB class used to animate the character once the image is clicked on.
      * You should write your own methods to perform your own animation for your character/avatar.
