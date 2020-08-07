@@ -22,7 +22,7 @@ USER INSTRUCTIONS:
 
 3) Clone the repository into the directory where git bash is pointing:
 
-    git clone https://github.com/DHS-CP/GreenfootSeatingChartMaster2020-21.git
+    git clone https://github.com/tekotan/GreenfootSeatingChartPer2-2020-21
 
 NOTE: This should set up all initial conditions for GIT and avoid a lot of confusion.
 
