@@ -35,6 +35,7 @@ public class Classroom extends World
         // Make sure to match your first and last name to the class file you created.
 
         /* Example */
+
         KilgoreTrout kilgoretrout = new KilgoreTrout("Kilgore", "Trout", 1, 1);
         addObject(kilgoretrout, 1, 1);
         kilgoretrout.sitDown();
@@ -50,6 +51,10 @@ public class Classroom extends World
         TanishB tanishbaranwal = new TanishB("Tanish", "Baranwal", 1, 3);
         addObject(tanishbaranwal, 1, 3);
         tanishbaranwal.sitDown();  
+        
+        YashBansal yashbansal = new YashBansal("Yash", "Bansal", 1, 4);
+        addObject(yashbansal, 1, 1);
+        yashbansal.sitDown();
     }  
 
 }
