@@ -75,7 +75,7 @@ public class TanishB extends Student implements SpecialInterestOrHobby
             }
         
     } 
-    
+}
     /**
      * Prints the first and last name to the console
      */
