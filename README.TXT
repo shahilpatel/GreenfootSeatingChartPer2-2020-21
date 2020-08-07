@@ -10,6 +10,8 @@ HOW TO START THIS PROJECT:  To start this project, assuming that you have Greenf
 AUTHORS:                    Mr. Kaehms and CSA students
 
 CONTRIBUTERS:               Kilgore Trout
+                            Tinhphong Nguyen
+                            Tanish Baranwal
                             (Add you name here once your code 
                              is added and correct)
 
