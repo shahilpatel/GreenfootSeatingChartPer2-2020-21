@@ -26,7 +26,9 @@ public class TanishB extends Student implements SpecialInterestOrHobby
         portraitFile=f.toLowerCase()+l.toLowerCase()+".jpg";    // Make sure to name your image files firstlast.jpg, all lowercase!!!
         standingFile=firstName.toLowerCase()+ lastName.toLowerCase()+"-standing.jpg";
         soundFile=f.toLowerCase()+l.toLowerCase()+".wav";  // Make sure to name your sound files firstlast.wav, all lowercase!!!
-        setImage(portraitFile);
+        GreenfootImage image = new GreenfootImage(portraitFile);
+        image.scale(13, 25);
+        setImage(image);
         sitting=true;
     }
     /**
@@ -43,7 +45,7 @@ public class TanishB extends Student implements SpecialInterestOrHobby
         portraitFile=firstName.toLowerCase()+ lastName.toLowerCase()+".jpg";
         standingFile=firstName.toLowerCase()+ lastName.toLowerCase()+"-standing.jpg";
         soundFile=firstName.toLowerCase()+ lastName.toLowerCase()+".mp3";
-        GreenfootImage image = new GreenfootImage(soundFile);
+        GreenfootImage image = new GreenfootImage(portraitFile);
         image.scale(13, 25);
         setImage(image);
         sitting=true;
@@ -60,7 +62,9 @@ public class TanishB extends Student implements SpecialInterestOrHobby
         if(Greenfoot.mouseClicked(this)){
            if (sitting){
                 sitting=false;
-                setImage(standingFile);
+                GreenfootImage image = new GreenfootImage(standingFile);
+                image.scale(13, 25);
+                setImage(image);
                 System.out.println(""); // Print a blank line to create space between any student output.
                 getName();
                 sayName(soundFile);
@@ -113,6 +117,8 @@ public class TanishB extends Student implements SpecialInterestOrHobby
         }
     }
         
+    }
+    public void answerQuestion(){
     }
     /**
      * This is a local method specific to the TanishB class used to animate the character once the image is clicked on.
