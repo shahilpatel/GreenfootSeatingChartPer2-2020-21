@@ -42,9 +42,14 @@ public class Classroom extends World
         AnirudhNagasamudra anirudhnagasamudra = new AnirudhNagasamudra("Anirudh", "Nagasamudra", 9, 5);
         addObject(anirudhnagasamudra, 9, 5);
         anirudhnagasamudra.sitDown();
-         
+        
+        TinhphongN tinhphongnguyen = new TinhphongN("Tinhphong", "Nguyen", 1, 2);
+        addObject(tinhphongnguyen, 1, 2);
+        tinhphongnguyen.sitDown();
 
+        TanishB tanishbaranwal = new TanishB("Tanish", "Baranwal", 1, 3);
+        addObject(tanishbaranwal, 1, 3);
+        tanishbaranwal.sitDown();  
+    }  
 
-
-    }
 }
