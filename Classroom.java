@@ -50,6 +50,10 @@ public class Classroom extends World
         TanishB tanishbaranwal = new TanishB("Tanish", "Baranwal", 1, 3);
         addObject(tanishbaranwal, 1, 3);
         tanishbaranwal.sitDown();  
+        
+        JoeyHuang joeyhuang = new JoeyHuang("Joey", "Huang", 5, 5);
+        addObject(joeyhuang, 5, 5);
+        tanishbaranwal.sitDown(); 
     }  
 
 }
