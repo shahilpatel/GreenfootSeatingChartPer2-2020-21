@@ -43,7 +43,9 @@ public class TanishB extends Student implements SpecialInterestOrHobby
         portraitFile=firstName.toLowerCase()+ lastName.toLowerCase()+".jpg";
         standingFile=firstName.toLowerCase()+ lastName.toLowerCase()+"-standing.jpg";
         soundFile=firstName.toLowerCase()+ lastName.toLowerCase()+".mp3";
-        setImage(portraitFile);
+        GreenfootImage image = new GreenfootImage(soundFile);
+        image.scale(13, 25);
+        setImage(image);
         sitting=true;
     }
     
