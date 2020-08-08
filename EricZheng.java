@@ -100,7 +100,7 @@ int i;
          // Create a blackboard image and write to it, etc
          // Use an animated gif and dub over with audio - see "controls/show sound recoder"
          // from main greenfoot menu for a simple to use soud editor
-        
+        bluej.utility.Utility.openWebBrowser("https://drive.google.com/file/d/1ndDRYPx43E1vne4DHCvighAscRY9bEBo/view");
          
         // You can end the lesson and "sitDown" once the lesson is complete, or once
         // someone answers "yes" to the sitdown question
